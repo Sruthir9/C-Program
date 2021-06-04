@@ -10,13 +10,13 @@ printf("Enter information of students:\n");
 // storing information
 for (i = 0; i < 5; ++i) {
 s[i].roll = i + 1;
-printf("\nFor roll number%d,\n", s[i].roll);
+printf("\nFor roll number%d:\n", s[i].roll);
 printf("Enter first name: ");
 scanf("%s", s[i].firstName);
 printf("Enter marks: ");
 scanf("%f", &s[i].marks);
 }
-printf("Displaying Information:\n\n");
+printf("\n\nDisplaying Information:\n");
 // displaying information
 for (i = 0; i < 5; ++i) {
 
