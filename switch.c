@@ -21,7 +21,7 @@ case '/':
 result = num1 / num2;
 break;
 default:
-printf("Invalid operator");
+printf("\nInvalid operator");
 }
 printf("%.2f %c %.2f = %.2f", num1, op, num2, result);
 return 0;
